@@ -312,3 +312,23 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+
+.mp-logo {
+  width: 400px;
+  margin-top: 10px;
+}
+@media (max-width: 1000px) {
+  .mp-logo {
+    width: 300px;
+  }
+}
+@media (max-width: 767px) {
+  .mp-logo {
+    margin: 15px 0 0 10px;
+  }
+}
+@media (max-width: 560px) {
+  .mp-logo {
+    width: 250px;
+  }
+}
