@@ -30,6 +30,7 @@ a, a:visited {
   position: absolute;
   top: 37%;
   left: 50%;
+  opacity: 1;
 }
 
 .footer {
