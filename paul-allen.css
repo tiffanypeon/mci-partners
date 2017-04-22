@@ -4,9 +4,9 @@ h1 {
 
 body {
   font-family: 'EB Garamond', 'Baskerville', "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: black;
-  opacity: .9;
+  opacity: .8;
   background-color: #fbfbf9;
 }
 
@@ -22,6 +22,7 @@ a, a:visited {
 
 .bottom-phone-number {
   display: block;
+  font-size: 2rem;
 }
 
 .center-logo > img {
@@ -57,16 +58,20 @@ a, a:visited {
     font-size: 1rem;
   }
   .center-logo > img {
-    margin-left: -150px;
-    width: 300px;
+    margin-left: -175px;
+    width: 350px;
   }
   .footer {
-    top: 85%;
+    top: 83%;
   }
 }
 @media only screen and (min-width: 510px) {
   body {
     font-size: 1.2rem;
+  }
+  .center-logo > img {
+    margin-left: -200px;
+    width: 400px;
   }
   .footer {
     top: 87%;
@@ -83,13 +88,14 @@ a, a:visited {
 @media only screen and (min-width: 1020px) {
   .top-phone-number {
     display: block;
+    font-size: 2.8rem;
   }
   .bottom-phone-number {
     display: none;
   }
   .center-logo > img {
-    margin-left: -200px;
-    width: 400px;
+    margin-left: -300px;
+    width: 600px;
   }
   .footer {
     top: 93%;
