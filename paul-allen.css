@@ -1,0 +1,64 @@
+h1 {
+  display: none;
+}
+
+body {
+  font-family: 'EB Garamond', 'Baskerville', "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-size: 1.5rem;
+  color: black;
+  opacity: .9;
+  background-color: #fbfbf9;
+}
+
+.center-logo > img {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+}
+
+.footer {
+  position: absolute;
+  top: 93%;
+  text-align: center;
+}
+
+.email {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+.address {
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.disclaimer {
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+@media only screen and (min-width: 380px) {
+  .center-logo > img {
+    margin-left: -100px;
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 510px) {
+  .center-logo > img {
+    margin-left: -125px;
+    width: 250px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .center-logo > img {
+    margin-left: -150px;
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 1020px) {
+  .center-logo > img {
+    margin-left: -200px;
+    width: 400px;
+  }
+}
