@@ -4,10 +4,11 @@ h1 {
 
 body {
   font-family: 'EB Garamond', 'Baskerville', "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: black;
   opacity: .8;
   background-color: #fbfbf9;
+  text-transform: uppercase;
 }
 
 a, a:visited {
@@ -27,7 +28,7 @@ a, a:visited {
 
 .center-logo > img {
   position: absolute;
-  top: 38%;
+  top: 36%;
   left: 50%;
 }
 
@@ -55,7 +56,7 @@ a, a:visited {
 
 @media only screen and (min-width: 380px) {
   body {
-    font-size: 1rem;
+    font-size: .8rem;
   }
   .center-logo > img {
     margin-left: -175px;
@@ -67,22 +68,22 @@ a, a:visited {
 }
 @media only screen and (min-width: 510px) {
   body {
-    font-size: 1.2rem;
+    font-size: .9rem;
   }
   .center-logo > img {
     margin-left: -200px;
     width: 400px;
   }
   .footer {
-    top: 87%;
+    top: 83%;
   }
 }
 @media only screen and (min-width: 768px) {
   body {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .footer {
-    top: 90%;
+    top: 85%;
   }
 }
 @media only screen and (min-width: 1020px) {
