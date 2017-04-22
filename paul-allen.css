@@ -17,6 +17,7 @@ a, a:visited {
 
 .top-phone-number {
   display: none;
+  margin-left: 25px;
 }
 
 .bottom-phone-number {
