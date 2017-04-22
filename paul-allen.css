@@ -6,7 +6,7 @@ body {
   font-family: 'EB Garamond', 'Baskerville', "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-size: 1.5rem;
   color: black;
-  opacity: .8;
+  opacity: .7;
   background-color: #fbfbf9;
   text-transform: uppercase;
 }
@@ -84,6 +84,9 @@ a, a:visited {
   }
 }
 @media only screen and (min-width: 1020px) {
+  .caps {
+    font-size: 1.1rem;
+  }
   body {
     font-size: .9rem;
   }
