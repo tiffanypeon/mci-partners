@@ -15,6 +15,14 @@ a, a:visited {
   text-decoration: none;
 }
 
+.top-phone-number {
+  display: none;
+}
+
+.bottom-phone-number {
+  display: block;
+}
+
 .center-logo > img {
   position: absolute;
   top: 38%;
@@ -72,6 +80,12 @@ a, a:visited {
   }
 }
 @media only screen and (min-width: 1020px) {
+  .top-phone-number {
+    display: block;
+  }
+  .bottom-phone-number {
+    display: none;
+  }
   .center-logo > img {
     margin-left: -200px;
     width: 400px;
