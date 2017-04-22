@@ -28,7 +28,7 @@ a, a:visited {
 
 .center-logo > img {
   position: absolute;
-  top: 36%;
+  top: 37%;
   left: 50%;
 }
 
@@ -68,7 +68,7 @@ a, a:visited {
 }
 @media only screen and (min-width: 510px) {
   body {
-    font-size: .9rem;
+    font-size: .7rem;
   }
   .center-logo > img {
     margin-left: -200px;
@@ -79,14 +79,14 @@ a, a:visited {
   }
 }
 @media only screen and (min-width: 768px) {
-  body {
-    font-size: 1.1rem;
-  }
   .footer {
     top: 85%;
   }
 }
 @media only screen and (min-width: 1020px) {
+  body {
+    font-size: .9rem;
+  }
   .top-phone-number {
     display: block;
     font-size: 2.8rem;
