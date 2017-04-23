@@ -5,8 +5,9 @@ h1 {
 body {
   font-family: 'EB Garamond', 'Baskerville', "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-size: 1.5rem;
-  color: black;
-  background-image: url('wallpaper.jpg');
+  color: white;
+  background: url('wave2.gif') no-repeat center center fixed;
+  background-size: cover;
   text-transform: uppercase;
 }
 
