@@ -61,7 +61,7 @@ a, a:visited {
   opacity: .9;
 }
 
-@media only screen and (min-width: 380px) {
+@media only screen and (min-width: 100px) {
   body {
     font-size: .8rem;
   }
