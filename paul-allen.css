@@ -91,9 +91,10 @@ a, a:visited {
     font-size: .9rem;
   }
   .bottom-phone-number {
-    font-family: 'EB Garamond', 'Baskerville', "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-    font-size: 2.8rem;
     display: inline-block;
+    font-family: 'EB Garamond', 'Baskerville', "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 1.3rem;
+    letter-spacing: .2px;
   }
   .center-logo > img {
     margin-left: -300px;
