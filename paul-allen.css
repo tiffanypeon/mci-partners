@@ -17,15 +17,8 @@ a, a:visited {
     opacity: .9;
 }
 
-.top-phone-number {
-  display: none;
-  margin-left: 25px;
-  opacity: .9;
-}
-
 .bottom-phone-number {
-  display: block;
-  font-size: 2rem;
+  display: inline-block;
   opacity: .9;
 }
 
